@@ -1,0 +1,11 @@
+POST   /api/posts
+GET    /api/posts
+GET    /api/posts/:id
+PATCH  /api/posts/:id
+DELETE  /api/posts/:id
+
+POST   /api/posts/:id/comments
+GET    /api/posts/:id/comments
+DELETE /api/comments/:id
+
+GET    /api/posts?search=react
